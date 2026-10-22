@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: anime-island-stormbound
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
